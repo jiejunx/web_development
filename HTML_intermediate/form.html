@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<!-- action where the form send data to
+     method what HTTP  (get/post) -->
+<form action="http://wikipedia.org" method="GET">
+	<input type="text" placeholder="username">
+	<input type="password" placeholder="password">
+	<input type="submit"> <!-- identical -->
+</form>
+
+<form action="http://wikipedia.org">
+	<input name="username" type="text" placeholder="username">
+	<input name="password" type="password" placeholder="password">
+	<input type="submit"> <!-- identical -->
+</form>
+
+</body>
+</html>
